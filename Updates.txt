@@ -1,0 +1,18 @@
+##############
+##  Guide.  ##
+##############
+
+=============================================================
+Version, Major Update, Section Update, Minor Update, Bug Fix
+=============================================================
+
+June 24th, 20201
+0.0.1.0.0
+- Created RPG Text based game.
+- Added a few notes to self
+- Reached out to Creative Writing Classmates for assistance
+on the story aspect and / or other suggestions.
+
+June 25th
+0.0.1.1.0
+- Created GitHub Repo 
