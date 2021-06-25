@@ -19,3 +19,4 @@ June 25th
 - Squashed some bugs
 - Made Login
 - Made Sword 2
+- Added Co-Owner
