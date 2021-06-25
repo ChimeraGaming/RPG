@@ -16,4 +16,6 @@ on the story aspect and / or other suggestions.
 June 25th
 0.0.1.1.0
 - Created GitHub Repo 
-- Working on squashing a bug.
+- Squashed some bugs
+- Made Login
+- Made Sword 2
