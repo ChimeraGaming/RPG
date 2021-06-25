@@ -16,3 +16,6 @@ Co-Author: None (Yet)
 Proof Reader: None (Yet)
 
 
+Inventory Referance - David Lunt
+https://stackoverflow.com/questions/32486754/i-want-to-make-an-inventory-system-for-my-game-in-python-v-3-4-3
+

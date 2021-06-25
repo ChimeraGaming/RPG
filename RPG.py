@@ -1,11 +1,36 @@
 # I want to make an RPG Game based sorta like Legend of Zelda but, with levels
 # I also want to make a map but how? alt codes maybe ???
 
-# URL HELP 
+# Inventory System Referance - David Lunt
 # https://stackoverflow.com/questions/32486754/i-want-to-make-an-inventory-system-for-my-game-in-python-v-3-4-3
 
 # Imports
 import sys, time, os, random
+
+# Login
+print('\nWelcome to the Text RPG login screen') 
+username_create = input('Please set a username: ')
+password_create = input('Please set a password: ')
+
+user_login = input('Enter Username: ')
+if user_login == username_create:
+    print(f'Initiating Login for {username_create}')
+    time.sleep(1.5)
+if user_login != username_create:
+    print('User is not registered.')
+
+count = 0
+while count < 3:
+    user_login_pw = input('Enter Password: ')
+    if user_login_pw == password_create:
+        print ('Password Accepted')
+        break
+    if user_login_pw != password_create:
+        print('Incorrect Password, Try Again.')
+        count += 1
+    if count == 3:
+        exit()
+
 '''
 # Items: 
 health_potion = 0 # Multiple types?
@@ -16,8 +41,13 @@ sword = 0 # Different Tiers with Different Attack Values 1-3, 4-6, 6-9, etc
 '''
 def sword_1(RollingPin):
     name = 'Rolling Pin'
+    value = 5
+    damage =10
+
+def sword_2(WoodenSword):
+    name = 'Wooden Sword'
     value = 10
-    damage =25
+    damage = 25
 '''
 bow = 0 # Different Arrows with Different Effects
 
