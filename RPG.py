@@ -131,6 +131,7 @@ def slow_type(text):
 slow_type(f'''In a world not so far away from ours...
 But vastely different in terms of survival...
 A hero is born!
+
 The Hero goes about his normal day to day life training to
 be a baker. One day his life is uprooted when his little 
 sister interveins by throwing some raw dough (flour) at him.
