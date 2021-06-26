@@ -44,16 +44,23 @@ mana_potion = 0 # ??? Maybe
 # Weapons
 sword = 0 # Different Tiers with Different Attack Values 1-3, 4-6, 6-9, etc
 '''
-class Sword:
+class Weapon:
     # A simple class
     # attribute
     attr1 = 'Wooden'
-    attr2 = 'Iron'
-    attr3 = 'Mythril'
+    attr2 = 'Bronze'
+    attr3 = 'Iron'
+    attr4 = 'Emerald'
+    attr5 = 'Steel'
+    attr6 = 'Sapphire'
+    attr7 = 'Diamond'
+    attr8 = 'Dragon Slayer'
+    attr9 = 'Enchanted'
+
 
 # Driver code
 # Object instantiation
-Sword_1 = Sword()
+weapon = Weapon()
 
 # Accessing class attributes
 # and method through objects
@@ -129,4 +136,4 @@ be a baker. One day his life is uprooted when his little
 sister interveins by throwing some raw dough (flour) at him.
 
 The young hero was furious... he unleashed a godly laughter as
-he chased his sister around with the {Sword_1.attr1} Rolling Pin!''')
+he chased his sister around with the {weapon.attr1} Rolling Pin!''')
