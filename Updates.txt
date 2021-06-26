@@ -19,5 +19,6 @@ June 25th
 - Squashed some bugs
 - Made Login
 - Added Co-Owner
+- Finished Login
 - Made Sword Class
 - Fixed spelling errors
