@@ -18,5 +18,6 @@ June 25th
 - Created GitHub Repo 
 - Squashed some bugs
 - Made Login
-- Made Sword 2
 - Added Co-Owner
+- Made Sword Class
+- Fixed spelling errors
