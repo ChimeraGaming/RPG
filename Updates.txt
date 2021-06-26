@@ -20,5 +20,5 @@ June 25th
 - Made Login
 - Added Co-Owner
 - Finished Login
-- Made Sword Class
+- M̶a̶d̶e̶ S̶w̶o̶r̶d̶ C̶l̶a̶s̶s̶ Made Weapon Class
 - Fixed spelling errors
