@@ -22,3 +22,6 @@ June 25th
 - Finished Login
 - M̶a̶d̶e̶ S̶w̶o̶r̶d̶ C̶l̶a̶s̶s̶ Made Weapon Class
 - Fixed spelling errors
+
+June 26th
+- Changed Prologue

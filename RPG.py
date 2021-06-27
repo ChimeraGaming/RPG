@@ -128,13 +128,19 @@ def slow_type(text):
         time.sleep(random.random()*10.0/typing_speed)
     print('')
 
-slow_type(f'''In a world not so far away from ours...
-But vastely different in terms of survival...
-A hero is born!
+slow_type(f'''Phobotane is a world of peace and prosperity. It is a 
+land in which all races live together in harmony. 
+The gnomes build their machines and live among
+the humans. Elves run the academies in which
+people come to learn. Ogres have no qualms
+living in the same town as humans or gnomes.
+Yet, all is not well.
 
-The Hero goes about his normal day to day life training to
-be a baker. One day his life is uprooted when his little 
-sister interveins by throwing some raw dough (flour) at him.
-
-The young hero was furious... he unleashed a godly laughter as
-he chased his sister around with the {weapon.attr1} Rolling Pin!''')
+You are {username_create}, a human alchemist in the
+kingdom of Kuzos. You've lived in the town of
+Gerzona your entire life. You've been training in
+the local alchemist guild and have come to be a 
+respected member of the guild. The town is small,
+but it's enough to keep you busy. The town is
+surrounded by a wall to protect it from enemy
+attack. ''')
