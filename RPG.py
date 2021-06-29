@@ -5,7 +5,47 @@
 # https://stackoverflow.com/questions/32486754/i-want-to-make-an-inventory-system-for-my-game-in-python-v-3-4-3
 
 # Imports
-import sys, time, os, random
+import sys, time, os, random, pickle, items
+import os.path
+# Check if the file to save has been created.
+file_exists = os.path.isfile("loadfile.txt")
+
+# Load the text file
+def load():
+    if file_exists:
+        file = open("loadfile.txt", "r")
+        room = file.read()
+        file.close()
+    else:
+        room = "Start Room"
+
+    roomchooser(room)
+
+# Save the file
+def save(s):
+    file = open ("loadfile.txt", "w")
+    file.write(s)
+    file.close()
+    
+'''
+# Set the correct starting room
+def Tutorial(room):
+    if room == "Tutorial":
+        startroom()
+
+
+def startroom():
+    s = "Tuturial"
+    save(s)
+    print("You are in a hallway, you could go left or right"
+    direction = input()
+    if direction == "right":
+        secondroom()
+    quit()
+'''
+
+
+
 
 # Login
 print(f'\n{"-"*36}\nWelcome to the Text RPG login screen\n{"-"*36}\n') 
@@ -36,14 +76,6 @@ while count < 3:
 print (f'WELCOME {username_create} TO TEXT RPG V 1.1\n') 
 os.system("start F:\Python\Adventure.mp3")
 
-'''
-# Items: 
-health_potion = 0 # Multiple types?
-mana_potion = 0 # ??? Maybe
-
-# Weapons
-sword = 0 # Different Tiers with Different Attack Values 1-3, 4-6, 6-9, etc
-'''
 class Weapon:
     # A simple class
     # attribute
@@ -62,30 +94,6 @@ class Weapon:
 # Object instantiation
 weapon = Weapon()
 
-# Accessing class attributes
-# and method through objects
-#print (f'{Sword_1.attr1} Sword')
-
-'''
-bow = 0 # Different Arrows with Different Effects
-
-shield = 0 # Different Defence Values
-
-# Level up Feature - Increase stats in certain areas of choice..
-level = 1
-lvl = level
-
-# Stats
-health_points = 20
-hp = health_points
-
-mana_points = 20
-mp= mana_points
-
-attack = 1 # Chance to deal more damage (also increased by sword)-(Rate of 0.25 for each point - Needs 4 points to choose)
-
-defence = 0 # Chance to block (also increased by shield)-(Rate of 0.25 for each point - Needs 4 points to choose)
-'''
 
 # Slow Text Reference
 '''
@@ -115,6 +123,13 @@ sprint()
 ##        Prologue        ##
 ##                        ##
 ############################
+
+# Level Selection
+# Tutorial 
+# Story 1
+# Story 2
+# Story 3
+
 
 # Start Gap
 print(f'{"-"*36}\nPrologue\n{"-"*36}\n')
