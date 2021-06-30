@@ -14,7 +14,7 @@ June 24th, 20201
 on the story aspect and / or other suggestions.
 
 June 25th
-0.0.1.1.0
+0.0.1.1.1
 - Created GitHub Repo 
 - Squashed some bugs
 - Made Login
@@ -24,8 +24,12 @@ June 25th
 - Fixed spelling errors
 
 June 26th
+0.0.1.2.0
 - Changed Prologue
 
 June 29th
+0.0.1.2.1
 - Added Save File
+- Added Levels
 - Squashed some bugs
+- Cleaned the Gutters
