@@ -113,10 +113,20 @@ weapon = Weapon()
 # Story 2
 # Story 3
 
-Levels = ['Tutorial, Main Story, Veillantif']
+Levels = ['Tutorial, Phobotane, Veillantif']
 Tutorial = "Tutorial"
 Story_1 = "Phobotane"
 Story_2 = "Veillantif"
+
+Fight = ['Attack, Defend, Run']
+Attack = "Attack"
+Defend = "Defend"
+Run = "Run"
+
+#===================================================================#
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = #
+#===================================================================#
+
 
 # Typing Speeds
 
@@ -149,11 +159,41 @@ def sprint(text):
 Game_Start = input(f"Please choose a Level - {Levels}: ")
 print('\n')
 while True:
+
+#===================================================================#
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = #
+#===================================================================#
+
+
     if Game_Start == Tutorial:
         slow(f'''
 Welcome to the Tutorial!
 Here you will understand the in and out of the game.''')
-        break
+        normal(f'''
+You are going on an adventure and will experience a handfull of scenarios. 
+Some of which will be fruitful while others will be dangerous.
+These scenarios will look something like this.
+''')
+        sprint(f'''
+A wild Kobald has appeared from the bushes near you!
+''')
+        input(f"Choose your action! - {Fight}: ")   
+        if Attack:
+            print("You swing your fist and break it, Why did you try to attack when you haven't been properly equipped?!")
+        elif Defend:
+            print("You attempt to defend... However you failed and are not bleeding all over. (What were you thinking?!)")
+        elif Run:
+            print("You turn around and attempt to run... The Kobald notices you and strikes you back while you are running away!")
+        else:
+            print("You stand around doing nothing... The Kobald did not notice you... It went on it's merry way.")
+
+             
+        
+            break
+
+#===================================================================#
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = #
+#===================================================================#
 
     # Start Gap
     if Game_Start == Story_1:
@@ -178,6 +218,12 @@ Here you will understand the in and out of the game.''')
         attack. ''')
         break
     
+
+#===================================================================#
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = #
+#===================================================================#
+
+
     if Game_Start == Story_2:
         print(f'{"-"*36}\nPrologue\n{"-"*36}\n')
 
@@ -197,3 +243,8 @@ In eras past,testing speed testing speed testing speed...''')
 
     else:
         print("Incorrect Selection")
+
+
+#===================================================================#
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = #
+#===================================================================#
