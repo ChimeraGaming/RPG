@@ -6,15 +6,17 @@
 Version, Major Update, Section Update, Minor Update, Bug Fix
 =============================================================
 
-June 24th, 20201
-0.0.1.0.0
+# 2021
+
+June 24th
+0.1.0.0
 - Created RPG Text based game.
 - Added a few notes to self
 - Reached out to Creative Writing Classmates for assistance
 on the story aspect and / or other suggestions.
 
 June 25th
-0.0.1.1.1
+0.1.1.1
 - Created GitHub Repo 
 - Squashed some bugs
 - Made Login
@@ -24,21 +26,37 @@ June 25th
 - Fixed spelling errors
 
 June 26th
-0.0.1.2.0
+0.1.2.0
 - Changed Prologue
 
 June 29th
-0.0.1.2.1
+0.1.2.1
 - Added Save File
 - Added Levels
 - Squashed some bugs
 - Cleaned the Gutters
 
+
+# 2022
+
 February 1st
-0.0.1.2.1.1 
+0.1.2.1.1 
 - Starting this project back up. Had some family issues that have resolved.
 
 February 6th
 0.0.1.3
 - Started work on Tutorial
 - Added Fight Actions
+
+
+
+# 2023
+
+March 11th
+1.0
+- Added Years to Updates.txt 
+- Removed the duplicate 0 on update version (0.0.x.x.x)
+- Added RPG_2.py
+- Cranked out and finished RPG_2.py
+- Testing RPG_2.py for errors before commit to GitHub
+
